@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "plantsanywhere",
+	"version": "${version}",
+	"name": "PlantsAnywhere",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/plantsanywhere/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.backstube.plantsanywhere.PlantsAnywhere"
+		],
+		"client": [
+			"net.backstube.plantsanywhere.PlantsAnywhereClient"
+		]
+	},
+	"mixins": [
+		"plantsanywhere.mixins.json",
+		{
+			"config": "plantsanywhere.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"accessWidener": "plantsanywhere.accesswidener"
+}

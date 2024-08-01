@@ -1,0 +1,43 @@
+{
+  "required": true,
+  "package": "net.backstube.plantsanywhere.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AbstractPlantPartBlockMixin",
+    "AbstractPlantStemBlockMixin",
+    "BambooBlockMixin",
+    "BambooShootBlockMixin",
+    "BigDripleafBlockMixin",
+    "BigDripleafStemBlockMixin",
+    "BlockMixin",
+    "CaveVinesBodyBlockMixin",
+    "ChorusFlowerBlockMixin",
+    "ChorusPlantBlockMixin",
+    "CocoaBlockMixin",
+    "CoralBlockBlockMixin",
+    "CoralParentBlockMixin",
+    "CropBlockMixin",
+    "DeadCoralWallFanBlockMixin",
+    "FlowerbedBlockMixin",
+    "HangingRootsBlockMixin",
+    "LeavesBlockMixin",
+    "LilyPadBlockMixin",
+    "MultifaceGrowthBlockMixin",
+    "NetherWartBlockMixin",
+    "PitcherCropBlockMixin",
+    "PlantBlockMixin",
+    "PointedDripstoneBlockMixin",
+    "SaplingBlockMixin",
+    "SeaPickleBlockMixin",
+    "SmallDripleafBlockMixin",
+    "SporeBlossomBlockMixin",
+    "StructureTemplateMixin",
+    "SugarCaneBlockMixin",
+    "SweetBerryBushBlockMixin",
+    "TallPlantBlockMixin",
+    "VineBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
