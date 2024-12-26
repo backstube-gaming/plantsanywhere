@@ -3,15 +3,15 @@
 	"id": "plantsanywhere",
 	"version": "${version}",
 	"name": "PlantsAnywhere",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Lets you place most plants anywhere, even the air. Designed for building-centered servers.",
 	"authors": [
-		"Me!"
+		"TheLyingCake"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/plantsanywhere/icon.png",
 	"environment": "*",
 	"entrypoints": {
