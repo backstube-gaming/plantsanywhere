@@ -23,7 +23,7 @@ public abstract class PitcherCropBlockMixin {
     @Inject(at = @At("RETURN"), method = "getPlacementState", cancellable = true)
     public void plantsanywhere$getPlacementState(ItemPlacementContext ctx, CallbackInfoReturnable<BlockState> cir) {
         var state = cir.getReturnValue();
-        if (state.contains(BlockProperties.VANILLA_PLACING)) {
+        if (state != null && state.contains(BlockProperties.VANILLA_PLACING)) {
             cir.setReturnValue(state.with(BlockProperties.VANILLA_PLACING, false));
         }
     }
