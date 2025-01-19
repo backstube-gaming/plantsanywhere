@@ -36,6 +36,7 @@
     "SugarCaneBlockMixin",
     "SweetBerryBushBlockMixin",
     "TallPlantBlockMixin",
+    "TorchflowerBlockMixin",
     "VineBlockMixin"
   ],
   "injectors": {
