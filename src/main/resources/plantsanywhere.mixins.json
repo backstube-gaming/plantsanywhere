@@ -11,6 +11,7 @@
     "BigDripleafBlockMixin",
     "BigDripleafStemBlockMixin",
     "BlockMixin",
+    "BlockStateArgumentMixin",
     "CaveVinesBodyBlockMixin",
     "ChorusFlowerBlockMixin",
     "ChorusPlantBlockMixin",

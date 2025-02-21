@@ -1,4 +1,5 @@
-- support growing plants e.g. potatoes, vines, chorus to keep the property
+- add command to set it on a range of blocks manually without changing the type of blocks
+- support all growing plants e.g. vines, chorus to keep the property
 - add config for all
 - fix vine and glow lichen state updates
 - look into kelp and sea grass being plantable on land
